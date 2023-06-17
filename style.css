@@ -200,7 +200,8 @@ p {
 .product-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 70%;
+  justify-content: space-between;
+  gap: 70px;
 }
 
 h3 {
@@ -213,5 +214,34 @@ h3 {
 .precio {
   color: #ba8250;
   font-weight: 800;
-  padding: 16px 0;
+  padding: 10px 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.btn-2 {
+  margin: 0;
+  padding: 8px 35px;
+}
+
+.footer {
+  border-top: 1px solid #ba815065;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link h3 {
+  font-size: 22px;
+}
+
+.link a {
+  font-size: 16px;
+  color: #c0c0c1;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.link a:hover {
+  color: #ba8250;
 }
